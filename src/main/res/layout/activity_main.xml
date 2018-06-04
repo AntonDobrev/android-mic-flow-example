@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kinvey.sample.micflow.MainActivity" >
+
+    <Button
+        android:id="@+id/loginpage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_status"
+        android:layout_marginTop="20dp"
+        android:text="@string/login_with_login_page"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fetchbooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/fetch_books"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/login_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hello_world"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/loginpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_status"
+        android:layout_marginTop="20dp"
+        android:text="@string/login_with_login_page"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/logout"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/login_errors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logout"
+        android:layout_alignLeft="@+id/login_status"
+        android:layout_alignStart="@+id/login_status"
+        android:layout_marginBottom="56dp"
+        android:text="@string/hello_world"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
